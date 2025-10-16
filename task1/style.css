@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    width:100%;
+    height: 100%;
+}
+
+#head{
+    text-align: center;
+    padding: 35px;
+    background-color: rgba(12, 27, 69, 0.928);
+    color:white;
+    
+}
+body{
+    background-color: rgb(244, 239, 229);
+}
+
+#bd{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+.box{
+    margin: 20px;
+    padding: 10px;
+}
+
+#abt{
+    background-color: white;
+}
+
+#edu{
+    background-color: rgb(165, 187, 247);
+}
+#skill{
+    background-color: rgb(249, 249, 191);
+}
+#project{
+    background-color: rgb(235, 206, 235);
+}
+#Contact{
+    background-color: rgb(198, 236, 198);
+}
+
+.block{
+    padding: 5px;
+    border: 1px solid white;
+    width: 420px;
+    margin: 10px auto; /*the most imoortant */
+    text-align: center;
+    background-color: white;
+}
+
+#foot{
+    text-align: center;
+    padding: 35px;
+    background-color: rgba(12, 27, 69, 0.928);
+    color:white;
+}
