@@ -1,0 +1,4 @@
+create a page with
+1. background image
+2. use background altering styling
+3. create a button and add a text above it
