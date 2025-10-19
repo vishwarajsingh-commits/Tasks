@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;box-sizing: border-box;
+}
+
+body,html{
+    width: 100%;
+    height: 100%;
+}
+
+#bd{
+    width: 100%;
+    height: 100%;
+    background-image: url('pic.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+@font-face {
+    font-family: snow;
+    src: url("./Game of Thrones.ttf");
+}
+#para{
+    font-family: snow;
+    color: white;
+    font-size: larger;
+    font-weight: 900px;
+    text-align: center;
+    padding: 30px;
+}
+
+button{
+    padding: 10px;
+    border-radius: 40px;
+    background-color: white;
+    font-family: snow;
+    font-size: smaller;
+    margin: 10px auto;
+    
+
+}
+
+#btn{
+    text-align: center;padding-top: 200px;
+}
