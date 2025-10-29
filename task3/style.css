@@ -1,0 +1,75 @@
+@font-face {
+    font-family: v1;
+    src: url("./helvetica-neue-lt-pro-2-cufonfonts/HelveticaNeueLTProUltLtEx.otf");
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: v1;
+}
+#main #nav{
+    margin: 20px;
+}
+
+#main #nav a{
+    text-decoration: none;
+    color:black;
+    padding-right: 15px;
+    
+}
+
+#main>h1{
+    margin-top: 60px;
+    font-size: 200px;
+    padding-left: 10px;
+    font-weight: 500;
+}
+
+#main #det{
+    margin: 30px;
+    width: 250px;
+    position: absolute;
+    bottom: 20%;
+}
+h4{
+    margin-top: 5%;
+}
+p{
+    margin-top: 5px;
+}
+
+#main #foot{
+    position: absolute;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    bottom:5%;
+    margin: 30px;
+}
+
+#main #foot a{
+    text-decoration: none;
+    color: black;
+}
+
+#main>img{
+    width: 170px;
+    position: absolute;
+}
+
+#first{
+    left:40%;
+    bottom: 40%;
+}
+#second{
+    left:55%;
+    bottom:35%;
+    z-index: 75;
+}
+#third{
+    left:45%;
+    bottom:25%;
+}
